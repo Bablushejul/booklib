@@ -14,10 +14,10 @@ function AddedBookList() {
           "https://68.178.162.203:8080/application-test-v1.1/books"
         );
         setBooks(response.data);
-       setLoading(false);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
-       setError(error);
+        setError(error);
         setLoading(false);
       }
     };
