@@ -10,10 +10,8 @@ function AddedBookList() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          "https://68.178.162.203:8080/application-test-v1.1/books"
-        );
-        setBooks(response.data);
+        const response = await axios.get("http://68.178.162.203:8080/application-test-v1.1/books");
+        setBooks(response.data.data);
         setLoading(false);
       } catch (error) {
         //console.error("Error fetching data:", error);
@@ -37,7 +35,7 @@ function AddedBookList() {
     <div className={classes.bookdata}>
       <h1 className={classes.search}>Welcome To Book Store</h1>
       <ul className={classes.booklist}>
-        {books.data.map((book) => (
+        {books.map((book) => (
           <li key={book.id} className={classes.bookcontainer}>
             <h2>Title: {book.title}</h2>
             <div className={classes.borderline}></div>
