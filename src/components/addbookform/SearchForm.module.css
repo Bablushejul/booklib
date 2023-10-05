@@ -1,0 +1,67 @@
+.search {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-emphasis: none;
+  color: #008080;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 280px;
+  border: 2px solid black;
+  padding: 1%;
+  margin: 2%;
+  background-color: transparent;
+}
+.btn {
+  width: 100px;
+  padding: 1%;
+  margin: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ff851b;
+  border: 2px solid black;
+}
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  color: #ffffff;
+}
+
+.bookcontainer {
+  margin: 2%;
+  width: 300px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbu39U74X01_BXkQEDgkC_svA-Lqg52oMvES66Wb1oH6jAXkmsVvlqzuHBF4jmLLIQXw&usqp=CAU");
+}
+
+.borderline {
+  height: 2px;
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}

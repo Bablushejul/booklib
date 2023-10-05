@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.ucl.ac.uk/library/sites/library/files/styles/large_image/public/laptop-819285_1280_800x500.jpg?itok=Lt2Sil-s");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style-type: none;
+}
+button:hover {
+cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100&display=swap');

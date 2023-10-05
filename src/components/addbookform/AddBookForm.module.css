@@ -1,0 +1,58 @@
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addbookform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  justify-content: center;
+  border: 2px solid black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSncP47YS6l0HvhsCy-cYalYnN2G3GUjMyySDBIZSz4duAnINbTa_qj5Bu0f-lAHgI3rE&usqp=CAU");
+}
+
+.input {
+  width: 150px;
+  margin: 5%;
+  padding: 5%;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  background-color: transparent;
+  color: #aaaaaa;
+}
+.label {
+  width: 150 px;
+  margin: 1%;
+  margin-top: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-wrap: wrap;
+  color: #d2b48c;
+}
+.button {
+  width: 170px;
+  margin: 5%;
+  padding: 5%;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-wrap: wrap;
+  background-color: #ff851b;
+}
+
+.button :hover {
+  background-color: transparent;
+  transition: 3s;
+}
