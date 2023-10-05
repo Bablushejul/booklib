@@ -11,7 +11,7 @@ function AddedBookList() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://68.178.162.203:8080/application-test-v1.1/books"
+          "https://68.178.162.203:8080/application-test-v1.1/books"
         );
         setBooks(response.data);
        setLoading(false);
