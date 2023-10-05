@@ -11,19 +11,19 @@ function AddedBookList() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://68.178.162.203:8080/application-test-v1.1/books"
+          "http://68.178.162.203:8080/application-test-v1.1/books"
         );
         setBooks(response.data);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        //console.error("Error fetching data:", error);
         setError(error);
         setLoading(false);
       }
     };
 
     fetchData();
-  }, []);
+  }, [books,loading,error]);
 
   if (loading) {
     return <p>Loading...</p>;
