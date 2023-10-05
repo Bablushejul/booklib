@@ -23,7 +23,7 @@ function AddedBookList() {
     };
 
     fetchData();
-  }, [books,loading,error]);
+  }, []);
 
   if (loading) {
     return <p>Loading...</p>;
